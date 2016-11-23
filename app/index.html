@@ -30,6 +30,7 @@
           <li ui-sref-active="active"><a ui-sref="home">Home</a></li>
           <li ui-sref-active="active"><a ui-sref="nfl">NFL</a></li>
           <li ui-sref-active="active"><a ui-sref="nba">NBA</a></li>
+          <li ui-sref-active="active"><a ui-sref="users">User</a></li>
         </ul>
       </div><!--/.nav-collapse -->
     </div>
@@ -54,11 +55,29 @@
   <!-- In production use:
   <script src="//ajax.googleapis.com/ajax/libs/angularjs/x.x.x/angular.min.js"></script>
   -->
+  <script src="bower_components/jquery/dist/jquery.min.js"></script>
   <script src="bower_components/angular/angular.min.js"></script>
   <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
   <script src="bower_components/angular-animate/angular-animate.js"></script>
   <script src="bower_components/angular-touch/angular-touch.js"></script>
-  <script src="app.js"></script>
-  <script src="config.router.js"></script>
+
+  <script src="bower_components/crypto-js/core.js"></script>
+  <script src="bower_components/crypto-js/md5.js"></script>
+
+  <script src="assets/js/app.js"></script>
+  <script src="assets/js/config.router.js"></script>
+
+
+  <script src="assets/js/services/nbaservice.js"></script>
+  <script src="assets/js/services/nflservice.js"></script>
+  <script src="assets/js/services/gravatar.js"></script>
+  <script src="assets/js/services/users.js"></script>
+
+  <script src="assets/js/controllers/main-index-controller.js"></script>
+  <script src="assets/js/controllers/nba-index-controller.js"></script>
+  <script src="assets/js/controllers/nfl-index-controller.js"></script>
+  <script src="assets/js/controllers/users-index-controller.js"></script>
+
+  <script src="assets/js/directives/nw-card.js"></script>
 </body>
 </html>
