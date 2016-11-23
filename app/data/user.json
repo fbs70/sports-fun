@@ -1,0 +1,22 @@
+[
+    {
+    "id": "1",
+    "firstname": "Blair",
+    "lastname": "Shotlow",
+    "email": "blair.shotlow@gmail.com",
+    "bio": "This is Blairs bio"
+  },
+  {
+    "id": "2",
+    "firstname": "Brooklyn",
+    "lastname": "Shotlow",
+    "email": "brooklyn.shotlow@gmail.com"
+  },
+  {
+    "id": "3",
+    "firstname": "Misti",
+    "lastname": "Shotlow",
+    "email": "mistipatnode@yahoo.com",
+    "bio": "This is Mistis bio"
+  }
+]

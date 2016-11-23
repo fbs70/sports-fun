@@ -1,0 +1,9 @@
+<div class="page-header">
+  <h1>Users</h1>
+</div>
+
+<div class="users-wrapper">
+   <a class="card-users" ng-repeat="user in users">
+     <nw-card header="user.firstname" image="gravatarUrl(user.email)" body="user.bio" id="user.id"> </nw-card>
+   </a>
+</div>

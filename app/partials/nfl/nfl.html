@@ -1,0 +1,29 @@
+<div class="page-header">
+  <h1>NFL</h1>
+</div>
+<table class="table table-condensed">
+  <thead>
+    <tr>
+      <th>Helmet</th>
+      <th>Team</th>
+      <th>Team Name</th>
+      <th>Conference</th>
+      <th>Division</th>
+      <th>City</th>
+      <th>Stadium</th>
+      <th>Surface</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr ng-repeat="team in nflTeam">
+      <td><img ng-src="{{team.helmet}}" width="50%"></td>
+      <td>{{team.team}}</td>
+      <td>{{team.name}}</td>
+      <td>{{team.conference}}</td>
+      <td>{{team.division}}</td>
+      <td>{{team.city}}</td>
+      <td>{{team.stadium}}</td>
+      <td>{{team.surface}}</td>
+    </tr>
+  </tbody>
+</table>
